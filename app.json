@@ -1,91 +1,96 @@
+
 {
-    "name": "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧",
-    "logo": "https://telegra.ph/file/6c32d6bff1244f0972640.jpg",
+    "name": "Ak-𝚂𝙿𝙰𝙼-𝙱𝙾𝚃",
+    "description": "MOST POWERFUL + STABLE SPAMBOTS",
+    "logo": "https://graph.org/file/bf5ebe363845094c47512.jpg",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "PythonX",
+        "deadlybot",
         "SpamBots"
     ],
-    "repository": "https://github.com/PRADHAN474/SPAMBOT",
+    "repository": "https://github.com/Akash8t2/AK-SPAM",
+    "website": "https://t.me/AK_BOTS_TAME",
+    "success_url": "https://t.me/AK_BOTS_TAME",
     "env": {
+             "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "21702667",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "your alive pic or video",
+        "value": "https://graph.org/file/bf5ebe363845094c47512.jpg",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "6edfc559624f881569280cdb416f0c06",
+        "required": true
+      },
+     "CMD_HNDLR": {
+            "description": "Custom command handler.",
+            "value": "!",
+            "required": false
+        },
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6807017011:AAF0EwOoDwH19OLapksc4EktdrRV1BlgpvA",
         "required": true
       },
       "BOT_TOKEN2": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6572574270:AAGVj4h1eOSE5RRFmZdOP-70ddUwmopvECE",
         "required": true
       },
       "BOT_TOKEN3": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6613360149:AAG2fSWRm6kuIrkwoQmTnttgQv0wUZftcO0",
         "required": true
       },
       "BOT_TOKEN4": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6924574345:AAHEJgTE2l3wjAB0Q388pMx-YQDvtUXcE70",
         "required": true
       },
       "BOT_TOKEN5": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6862364747:AAGtXibcCG8UpoFzmTNi2yYmXP0bxLFkAxQ",
         "required": true
       },
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6337655440:AAHDbM-Q5eAPte3z_vk5-DwlRtJAn5eYWPk",
         "required": true
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6303343705:AAFOoZDHCxqi8ou5t7y_FF5dIAlqv6AsABM",
         "required": true
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6234547809:AAEzeaDpKQnHaocGM7yYA3XqHrL8sJP_3oQ",
         "required": true
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6555309799:AAFezYm1LflqyMLRPCN24zcdsRYDh5VYZQE",
         "required": true
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6586531121:AAHf5yjfXrrMI1r6mzKJGL6_Z29dUxxFdRg",
         "required": true
-      },
-      "CMD_HNDLR": {
-        "description": "Custom command handler.",
-        "value": ".",
-        "required": false
-      },
-      "SUDO_USERS": {
-        "description": "Sudo users id space by space",
-        "value": "",
-        "required": false
       },
       "OWNER_ID": {
-        "description": "Owner Id",
-        "value": "",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku api key to update your bot",
-        "value": "",
-        "required": false 
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Your app name to Update your bot",
-        "value": "",
-        "required": false  
-      }
+            "description": "owner Id",
+            "value": "6065568342",
+            "required": true
+        }
     },
+  "stack": "heroku-20",
   "buildpacks": [
         {
             "url": "heroku/python"
